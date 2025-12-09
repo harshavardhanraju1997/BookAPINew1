@@ -1,2 +1,6 @@
 # Node.js
 node_modules/
+/tests/playwright/playwright-report/
+/tests/playwrightRS/test-results/
+/tests/PlaywrightRS/allure-report/
+/tests/PlaywrightRS/allure-results/
