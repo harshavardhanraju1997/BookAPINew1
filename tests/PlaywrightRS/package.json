@@ -1,0 +1,21 @@
+{
+  "name": "playwrightrs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "regressionTest": "npx playwright test",
+    "regressionTestHeadless": "npx playwright test --headed",
+    "firefoxTest": "npx playwright test --config playwright.config1.js --project=firefox-execution"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.9.2",
+    "allure-commandline": "^2.34.1",
+    "allure-playwright": "^3.4.2"
+  }
+}
