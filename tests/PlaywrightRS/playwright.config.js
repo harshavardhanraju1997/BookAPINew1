@@ -18,7 +18,12 @@ export default defineConfig({
   expect: {
     timeout: 20 * 1000,
   },
-  reporter: "html",
+  reporter: [
+    ["html"],
+    ["list"], // keep default console reporter (optional)
+    ["./excel-reporter.js"],
+  ], // our custom Excel reporter
+
   use: {
     browserName: "chromium",
     video: "off",
