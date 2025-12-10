@@ -4,3 +4,8 @@ node_modules/
 /tests/playwrightRS/test-results/
 /tests/PlaywrightRS/allure-report/
 /tests/PlaywrightRS/allure-results/
+/tests/playwright/playwright-report/
+/package-lock.json
+/tests/PlaywrightRS/package-lock.json
+/tests/PlaywrightRS/playwright-test-results.xlsx
+package-lock.json
